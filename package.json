@@ -1,0 +1,34 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "node_modules/.bin/watchify renderer/renderer.js -t babelify -o dist/bundle.js --debug --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "electron": "^1.7.9",
+    "vue": "^2.5.2",
+    "watchify": "^3.9.0"
+  }
+}
